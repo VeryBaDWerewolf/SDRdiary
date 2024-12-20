@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Добро пожаловать!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Это небольшой склад для моих заметок по SDR и Wireless штучкам. 
