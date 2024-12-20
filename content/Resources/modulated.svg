@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-18 -220 318 440">
+<title>Amplitude modulation: Under and over modulations</title>
+<g fill="none" transform="translate(0,-150)" stroke-width=".5">
+	<path d="M0,50h300 M0,-50h300" stroke="#f0f" stroke-dasharray="3,2"/>
+	<path d="M-10,55H300 M0,-55V60" stroke="#000"/>
+	<path d="M0,0h300 M0,16.7h300 M0,-16.7h300" stroke="#777" stroke-dasharray="3,2"/>
+	<g id="set50">
+		<path id="fm2" d="M0,-33.3 Q 9.4,-48.6 18.8,-50 28.1,-48.6 37.5,-33.3    46.9,-18.1 56.3,-16.7 65.6,-18.1 75,-33.3" stroke="#f00" stroke-dasharray="2,2"/>
+		<use xlink:href="#fm2" transform="scale(1,-1)"/>
+		<path d="M0,0 Q 1.9,-71.9 3.8,0 5.6,81.8 7.5,0 9.4,-90.2 11.2,0 13.1,96.4 15,0    16.9,-99.6 18.8,0 20.6,99.6 22.5,0 24.4,-96.4 26.3,0 28.1,90.2 30,0 31.9,-81.8    33.8,0 35.6,71.9 37.5,0 39.4,-61.5 41.2,0 43.1,51.5 45,0 46.9,-43.1 48.8,0 50.6,37   52.5,0 54.4,-33.7 56.2,0 58.1,33.7 60,0 61.9,-37 63.8,0 65.6,43.1 67.5,0    69.4,-51.5 71.2,0 73.1,61.5 75,0" stroke="#00f"/>
+	</g>
+	<use xlink:href="#set50" x="75"/><use xlink:href="#set50" x="150"/>
+	<use xlink:href="#set50" x="225"/>
+	<g font-size="9" fill="#000" font-family="times" text-anchor="middle">
+		<text x="150" y="65">Time</text><text x="150" y="-60">50% Modulation</text>
+		<text x="10" y="-57">Amplitude</text><text x="-6" y="2">0</text>
+		<text x="-9" y="52">−1.5</text><text x="-7" y="-48">1.5</text>
+		<text x="-9" y="18">−0.5</text><text x="-7" y="-14">0.5</text>
+	</g>
+</g>
+<g fill="none" stroke-width=".5">
+	<path d="M0,50h300 M0,-50h300" stroke="#f0f" stroke-dasharray="4,2"/>
+	<path d="M-10,55H300 M0,-55V60" stroke="#000"/>
+	<path d="M0,0h300" stroke="#777" stroke-dasharray="3,2"/>
+	<g id="set100">
+		<path id="fm1" d="M0,-25 Q 9.4,-47.9 18.8,-50 28.1,-47.9 37.5,-25    46.9,-2.1 56.3,0 65.6,-2.1 75,-25" stroke="#f00" stroke-dasharray="2,2"/>
+		<use xlink:href="#fm1" transform="scale(1,-1)"/>
+		<path d="M0,0 Q 1.9,-57.8 3.8,0 5.6,72.7 7.5,0 9.4,-85.4 11.2,0 13.1,94.6 15,0    16.9,-99.4 18.8,0 20.6,99.4 22.5,0 24.4,-94.6 26.3,0 28.1,85.4 30,0 31.9,-72.7    33.8,0 35.6,57.8 37.5,0 39.4,-42.2 41.2,0 43.1,27.3 45,0 46.9,-14.6 48.8,0    50.6,5.4 52.5,0 54.4,0.6 56.2,0 58.1,0.6 60,0 61.9,-5.4 63.8,0 65.6,14.6 67.5,0    69.4,-27.3 71.2,0 73.1,42.2 75,0" stroke="#00f"/>
+	</g>
+	<use xlink:href="#set100" x="75"/><use xlink:href="#set100" x="150"/>
+	<use xlink:href="#set100" x="225"/>
+	<path d="M180,-80h20" stroke="#f00" stroke-dasharray="2,2"/>
+	<path d="M180,-72h20" stroke="#00f"/>
+	<g font-size="9" fill="#000" font-family="times" text-anchor="middle">
+		<text x="150" y="65">Time</text><text x="150" y="-60">100% Modulation</text>
+		<text x="10" y="-57">Amplitude</text><text x="-6" y="2">0</text>
+		<text x="-6" y="52">−2</text><text x="-6" y="-48">2</text>
+		<text x="205" y="-78" text-anchor="start">Message wave envelope</text>
+		<text x="205" y="-70" text-anchor="start">Carrier wave</text>
+	</g>
+</g>
+<g fill="none" transform="translate(0,150)" stroke-width=".5">
+	<path d="M0,50h300 M0,-50h300" stroke="#f0f" stroke-dasharray="3,2"/>
+	<path d="M-10,55H300 M0,-55V60" stroke="#000"/>
+	<path d="M0,0h300 M0,10h300 M0,-10h300" stroke="#777" stroke-dasharray="3,2"/>
+	<g id="set150">
+		<path id="fm3" d="M0,-20 Q 9.4,-47.4 18.8,-50 28.1,-47.4 37.5,-20 46.9,7.4   56.3,10 65.6,7.4 75,-20" stroke="#f00" stroke-dasharray="2,2"/>
+		<use xlink:href="#fm3" transform="scale(1,-1)"/>
+		<path d="M0,0 Q 1.1,-23.1 2.1,-24.7 3.2,-18.5 4.3,13.3 5.4,43.9 6.4,27.7 7.5,1.7    8.6,-31.1 9.6,-56.3 10.7,-18.9 11.8,25.9 12.9,45.3 13.9,51.8 15,0 16.1,-52.8    17.1,-48.5 18.2,-30 19.3,21.7 20.4,66.9 21.4,38.5 22.5,0.6 23.6,-37.2 24.6,-62.1    25.7,-19.5 26.8,27.2 27.9,40.6 28.9,41.8 30,0 31.1,-39.2 32.1,-32.2 33.2,-16.5    34.3,12.1 35.4,34.5 36.4,17.7 37.5,-2.1 38.6,-13.5 39.6,-19.2 40.7,-5.2 41.8,7.4    42.9,6.8 43.9,3.8 45,0 46.1,-1.2 47.1,1.6 48.2,3.3 49.3,-2.2 50.4,-8.5 51.4,-5.9    52.5,0.6 53.6,7.2 54.6,13.2 55.7,4.3 56.8,-6.1 57.9,-9.5 58.9,-9.7 60,0 61.1,8.7    62.1,6.3 63.2,2 64.3,-1.5 65.4,-2.6 66.4,0.2 67.5,1.7 68.6,-3.6 69.6,-9.8    70.7,-4.1 71.8,5.3 72.9,14.3 73.9,19.9 75,0" stroke="#00f"/>
+	</g>
+	<use xlink:href="#set150" x="75"/><use xlink:href="#set150" x="150"/>
+	<use xlink:href="#set150" x="225"/>
+	<g font-size="9" fill="#000" font-family="times" text-anchor="middle">
+		<text x="150" y="65">Time</text><text x="150" y="-60">150% Modulation</text>
+		<text x="10" y="-57">Amplitude</text><text x="-6" y="2">0</text>
+		<text x="-9" y="52">−2.5</text><text x="-7" y="-48">2.5</text>
+		<text x="-9" y="12">−0.5</text><text x="-7" y="-8">0.5</text>
+	</g>
+</g>
+</svg>
