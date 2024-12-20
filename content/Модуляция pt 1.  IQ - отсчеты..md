@@ -1,5 +1,5 @@
 ---
-title: Символьная модуляция
+title: Модуляция pt 1. IQ - отсчеты
 draft: false
 tags:
   - sdr
