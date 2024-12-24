@@ -16,7 +16,8 @@ tags:
 
 ## PAM (Pulse Amplitude Modulation)
 
-Пусть $$
+Пусть 
+$$
 Map(b(t)) = 
 \begin{cases}
   \ \ \  1, &   если \ \ b(t) = 1 \\
