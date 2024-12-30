@@ -1,8 +1,8 @@
 ---
-title: Example Title
+title: {{title}}
 draft: false
 tags:
-  - example-tag
+date: {{date}}
 ---
  
 The rest of your content lives here. You can use **Markdown** here :)
