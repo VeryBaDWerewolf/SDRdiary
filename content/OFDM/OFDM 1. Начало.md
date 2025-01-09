@@ -5,6 +5,7 @@ tags:
   - DSP
   - OFDM
 date: 2024-12-28
+permalink: ofdm-1
 ---
  
 OFDM (**O**rthogonal **f**requency-**d**ivision **m**ultiplexing.)  Метод модуляции основанный на разбиение полосы частот на равномерные поднесущие частоты. 
