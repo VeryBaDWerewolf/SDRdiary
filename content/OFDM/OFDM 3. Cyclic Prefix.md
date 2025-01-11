@@ -4,6 +4,7 @@ draft: false
 tags:
   - OFDM
 date: 2025-01-12
+permalink: ofdm-3
 ---
 ## Multipath Fading (Многолучевое распространение)
 
